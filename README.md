@@ -1,7 +1,7 @@
 # MS_Engage_2022
 This is my submission for Microsoft Engage 2022, challenge taken is Challenge 1: Face Recognition.
 
-# How to Run the Web-App
+## How to Run the Web-App
 
 1. Clone the GitHub Repository at the required location. 
 2. Install Anaconda from [here](https://www.anaconda.com/products/distribution)
