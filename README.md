@@ -2,7 +2,7 @@
 This is my submission for Microsoft Engage 2022, challenge taken is Challenge 1: Face Recognition.
 
 Video Demo:
-Click [here](https://drive.google.com/file/d/1TaUsdvh-R5x4PFFk7YD5uloTRcCkGFVp/view?usp=sharing) to know more about the Web-App 
+Click [here](https://drive.google.com/file/d/1zYGNFgYV_VYJas8NosinSNr2WfUqzuDG/view?usp=sharing) to know more about the Web-App 
 
 ## How to Run the Web-App
 
@@ -21,6 +21,7 @@ virtualenv env_name
 6. Installation:
 ```zsh
 pip install -r requirements.txt 
+pip install flask flask_sqlalchemy flask_login flask_bcrypt flask_wtf wtforms email_validator
 ```
 7. Run command ((in Anaconda Terminal) inside the virtual environment:
 ```zsh
