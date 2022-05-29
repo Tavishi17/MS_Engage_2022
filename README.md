@@ -1,34 +1,29 @@
 # MS_Engage_2022
 This is my submission for Microsoft Engage 2022, challenge taken is Challenge 1: Face Recognition.
 
+Video Demo:
+Click [here](https://drive.google.com/file/d/1TaUsdvh-R5x4PFFk7YD5uloTRcCkGFVp/view?usp=sharing) to know more about the Web-App 
+
 ## How to Run the Web-App
 
 1. Clone the GitHub Repository at the required location. 
 2. Install Anaconda from [here](https://www.anaconda.com/products/distribution)
 3. Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required dependencies 
-4. Create a virtual environment (in Anaconda Terminal) using: (Recommended)
+4. Install and create a virtual environment (in Anaconda Terminal) using: (Recommended)
 ```zsh
-pip install virtualenv name_env
+pip install virtualenv
+virtualenv env_name
 ```
 5. Activate the virtual environment (in Anaconda Terminal) using:
 ```zsh
-.\name_env\Scripts\activate 
+.\env_name\Scripts\activate 
 ```
 6. Installation:
-##### Windows:
 ```zsh
 pip install -r requirements.txt 
 ```
-##### macOS/Linux:
-```zsh
-pip3 install -r requirements.txt
-```
 7. Run command ((in Anaconda Terminal) inside the virtual environment:
-##### Windows:
 ```zsh
 python app.py
 ```
-##### macOS/Linux:
-```zsh
-python3 app.py
-```
+
